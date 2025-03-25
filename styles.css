@@ -1,0 +1,95 @@
+/* ===== RESET & BASE STYLES ===== */
+/* Universal selector (*) - TASK REQUIREMENT: SELECTOR #1 */
+* {
+    margin: 0;          /* Remove default margins */
+    padding: 0;         /* Remove default padding */
+    box-sizing: border-box; /* Include padding/border in element width */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Base font */
+}
+
+/* Body styles */
+body {
+    background-color: #f8f9fa; /* Light gray background */
+    color: #333;              /* Dark gray text color */
+    line-height: 1.6;         /* Space between lines */
+    padding: 20px;            /* Space around content */
+}
+
+/* ===== ID SELECTOR - TASK REQUIREMENT: SELECTOR #2 ===== */
+/* Styles applied to element with id="main-header" */
+#main-header {
+    text-align: center;       /* Center align text */
+    padding: 2rem 0;         /* Vertical padding - TASK: PADDING */
+    margin-bottom: 2rem;      /* Space below header - TASK: MARGIN */
+    background: linear-gradient(135deg, #6e48aa 0%, #9d50bb 100%); /* Gradient */
+    color: white;             /* White text */
+    border-radius: 8px;       /* Rounded corners - TASK: BORDER RADIUS */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Subtle shadow */
+}
+
+/* ===== CLASS SELECTORS - TASK REQUIREMENT: SELECTOR #3 ===== */
+/* Highlight class for special text elements */
+.highlight {
+    color: #6e48aa;          /* Purple text color - TASK: COLOR */
+    border-bottom: 2px solid #9d50bb; /* Bottom border - TASK: BORDER */
+    padding-bottom: 0.5rem;  /* Space between text and border */
+    margin-bottom: 1rem;     /* Space below element */
+}
+
+/* Content box styling */
+.content-box {
+    background: white;       /* White background */
+    padding: 2rem;           /* Internal spacing */
+    border-radius: 8px;      /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05); /* Very subtle shadow */
+    margin-bottom: 2rem;     /* Space below box */
+}
+
+/* Image container - TASK REQUIREMENT: STYLED IMAGE */
+.image-container {
+    text-align: center;      /* Center-align image */
+    margin: 2rem 0;         /* Vertical spacing around image */
+}
+
+/* Image styles */
+.image-container img {
+    border: 4px solid #6e48aa;       /* Purple border - TASK: BORDER */
+    border-radius: 4px;              /* Slightly rounded corners */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Shadow for depth */
+    transition: transform 0.3s ease; /* Smooth hover animation */
+}
+
+/* Image hover effect */
+.image-container img:hover {
+    transform: scale(1.02);  /* Slight zoom on hover */
+}
+
+/* ===== FOOTER STYLES ===== */
+footer {
+    text-align: center;      /* Center-align content */
+    padding: 1.5rem;        /* Internal spacing */
+    background-color: #6e48aa; /* Purple background */
+    color: white;           /* White text */
+    border-radius: 8px;     /* Rounded corners */
+}
+
+/* ===== TYPOGRAPHY - TASK REQUIREMENT: DIFFERENT FONT ===== */
+h1 {
+    font-size: 2.5rem;      /* Large heading size */
+    letter-spacing: -0.5px; /* Slightly tighter letter spacing */
+}
+
+h2 {
+    font-family: 'Georgia', serif; /* Different font for headings - TASK: DIFFERENT FONT */
+    font-size: 1.8rem;      /* Medium heading size */
+}
+
+/* Paragraph and list item spacing */
+p, li {
+    margin-bottom: 1rem;    /* Space below paragraphs/list items */
+}
+
+/* Unordered list styling */
+ul {
+    padding-left: 2rem;     /* Indent list items */
+}
